@@ -1,9 +1,9 @@
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         
-        l = [
-            ",", " ",":", ".","@","#","_","[","]","{",
-        ]
+        # l = [
+        #     ",", " ",":", ".","@","#","_","[","]","{",
+        # ]
         
         ret = []
         for i in s:
