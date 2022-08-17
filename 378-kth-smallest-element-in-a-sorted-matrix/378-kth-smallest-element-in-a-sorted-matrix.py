@@ -3,7 +3,9 @@ class Solution:
         
         l = [item for subList in matrix for item in subList]
         print(l)
-        l.sort() # no need to sort since, it's already given in sorted mannar
+        l.sort()
+        
+        # didn't use the fact that they are sorted row wise
         
         
         return l[k-1]
