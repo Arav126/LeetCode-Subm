@@ -53,6 +53,8 @@ class Solution:
 
 #             i+=1
 
+
+        # you dont have to do anything to the array, you just need the number that's it
         s = len(arr)
         for i in range(len(it)):
             if s <= half:
