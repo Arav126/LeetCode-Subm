@@ -8,7 +8,7 @@ class Solution:
 #         else:
 #             return False
 
-        # Simple binary search with guess squared approach
+        # Simple binary search with guess squared approach, this is frankly stupid
     
         if num<2: return True
         
