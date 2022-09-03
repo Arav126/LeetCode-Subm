@@ -20,11 +20,11 @@ class Solution:
         
         for i in range(len(s)):
             # print(d1)
-            if s[i] not in d1 and t[i] not in list(d1.values()):
+            if s[i] not in d1 and t[i] not in list(d1.values()): # unique check as well
                 d1[s[i]] = t[i]
             else:
                 # check
-                if s[i] not in d1:
+                if s[i] not in d1: # rough code check, could have done it in the prev if block
                     return False
                 
                 if d1[s[i]] == t[i]:
